@@ -11,5 +11,8 @@ def print_first_directors_movie_titles
   i = 0 
   first_dir = directors_database[0][:movies]
   while i < first_dir.length do 
-    
+    results = first_dir[i][:titles]
+    puts results
+  end 
+  i += 1
 end
