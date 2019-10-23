@@ -13,6 +13,6 @@ def print_first_directors_movie_titles
   while i < first_dir.length do 
     results = first_dir[i][:titles]
     puts results
+    i += 1
   end 
-  i += 1
 end
